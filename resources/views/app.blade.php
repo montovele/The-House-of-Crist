@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
-        <title>Scaling Places</title>
+        <title>For the glory of Christ</title>
     </head>
     <body class="bg-gray-50 h-screen antialiased leading-none font-sans">
 

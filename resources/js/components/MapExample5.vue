@@ -9,6 +9,7 @@
 
     <!-- Modal -->
     <my-modal ref="myModal"></my-modal>
+    <controls ref="Controls"></controls>
   </div>
     <div class="menu-controls-container">
       <div class="buttons-container">
@@ -30,8 +31,10 @@
         <label for="service-type-select" class="block font-medium text-gray-700 tipograpi border">Filtro por tipo de servicio:</label>
         <select id="service-type-select" v-model="selectedServiceType" class="w-full mt-1 form-select rounded-md shadow-sm tipograpi font-bold blink">
           <option value="">Todo</option>
-          <option value="Restaurant">Restaurant</option>
-          <option value="Cafeteria">Cafeteria</option>
+          <option value="Iglesia Cristiana">Iglesia Cristiana</option>
+          <option value="Iglesia pentecostal">Iglesia pentecostal</option>
+          <option value="Iglesia apostolica">Iglesia apostolica</option>
+          <option value="Iglesia">Iglesia</option>
         </select>
       </div>
         </div>
@@ -57,6 +60,7 @@ import L from "leaflet";
 import { toRaw} from "vue";
 import VueSlider from 'vue-slider-component';
 import MyModal from './Modal1.vue';
+import Controls from './Controls.vue';
 import 'vue-slider-component/theme/default.css';
 
 export default {
@@ -64,6 +68,7 @@ export default {
     components: {
     VueSlider,
     MyModal,
+    Controls,
   },
   data() {
       return {
@@ -106,12 +111,16 @@ navigator.geolocation.getCurrentPosition(position => {
     fetchLocations(){
       //return this.$store.getters.locations
     this.locations=[
-    { name: "D Volada", latlng: [32.4669608, -116.9380798], serviceType: "Cafeteria",id:1 ,img:"map.png",rating:3,ratingCount:90},
-    { name: "Electric Coffee Roasters", latlng: [32.5137529,-117.0303605], serviceType: "Cafeteria",id:2,img:"map.png",rating:4,ratingCount:230},
-    { name: "DOUX SECRET", latlng: [32.4860517,-116.9279526], serviceType: "Cafeteria",id:3,img:"map.png",rating:5,ratingCount:100},
-    { name: "Comida china manfu", latlng: [32.4669575,-116.9380799], serviceType: "Restaurant",id:4,img:"map.png",rating:2,ratingCount:300},
-    { name: "Café de la Flor Zona Río", latlng: [32.5261803,-117.0214433], serviceType: "Restaurant",id:5 ,img:"map.png",rating:2,ratingCount:250},
-    { name: "Hotel Eiffel En Ensenada", latlng: [31.860818,-116.6108919], serviceType: "Hotel",id:6 ,img:"map.png",rating:4,ratingCount:12000},
+    { name: "IAFCJ 14", latlng: [32.467413, -116.9044563], serviceType: "Iglesia apostolica",id:1 ,img:"map.png",rating:3,ratingCount:90},
+    { name: "Iglesia Roca Eterna", latlng: [32.4700436,-116.9334485], serviceType: "Iglesia Cristiana",id:2,img:"map.png",rating:4,ratingCount:230},
+    { name: "Iglesia Cristiana Vida Abundante", latlng: [32.4632682,-116.9428666], serviceType: "Iglesia",id:3,img:"map.png",rating:5,ratingCount:100},
+    { name: "Iglesia Cristiana Pentecostes Mar de Cristal", latlng: [32.4651654,-116.9042358], serviceType: "Iglesia",id:4,img:"map.png",rating:2,ratingCount:300},
+    { name: "Iglesia Casa De Dios Cristiana", latlng: [32.4823847,-116.9524963], serviceType: "Iglesia",id:5 ,img:"map.png",rating:2,ratingCount:250},
+    { name: "Iglesia Apostolica De La Fe En Cristo Jesus # 37", latlng: [32.4676824,-116.9016447], serviceType: "Iglesia Cristiana",id:6 ,img:"map.png",rating:4,ratingCount:12000},
+    { name: "La Casona", latlng: [32.4648508,-116.9609202], serviceType: "Iglesia",id:6 ,img:"map.png",rating:4,ratingCount:12500},
+    { name: "Templo Obreros de Cristo", latlng: [32.4657338,-116.8971451], serviceType: "Iglesia pentecostal",id:6 ,img:"map.png",rating:4,ratingCount:14500},
+    { name: "Comunidad Cristiana Sublime Gracia", latlng: [32.4859217,-116.8935133], serviceType: "Iglesia Cristiana",id:6 ,img:"map.png",rating:4,ratingCount:17500},
+    { name: "Iglesia Cristiana Bautista La Roca", latlng: [32.4802211,-116.9273355], serviceType: "Iglesia",id:6 ,img:"map.png",rating:4,ratingCount:11700},
 
   ]
     },
@@ -123,11 +132,14 @@ navigator.geolocation.getCurrentPosition(position => {
     { name: "Tecate", latlng: [32.561938,-116.6433703]},
     { name: "Rosarito", latlng: [32.3594906,-117.0986019] },
     { name: "Ensenada", latlng: [31.8423022,-116.6923418] },
-  ]
+                    ]
     },
     // Abre el modal
     openMyModal(title, message,id) {
     this.$refs.myModal.openModal(title, message,id);
+  },
+  openMyControls() {
+    this.$refs.Controls.openControl();
   },
   //Reset de parametros de busqueda en mapa
   resetFilters() {
@@ -142,6 +154,37 @@ navigator.geolocation.getCurrentPosition(position => {
         13
       );
     });
+  },
+  buttonElement(){
+    const customButtonOptions = {
+  position: 'topleft',
+  onClick: () => {
+    console.log('¡Hiciste clic en el botón!');
+    this.openMyControls();
+  },
+  title: 'Mi botón personalizado'
+};
+
+// Define la clase que extiende de L.Control
+class CustomButton extends L.Control {
+  onAdd(map) {
+    // Crea el elemento del botón y agrega un listener de clic
+    const button = L.DomUtil.create('button', 'leaflet-bar leaflet-control');
+    button.innerHTML = 'Mi botón';
+    button.title = customButtonOptions.title;
+    L.DomEvent.on(button, 'click', customButtonOptions.onClick);
+    return button;
+  }
+
+  onRemove(map) {
+    // Elimina cualquier listener del botón
+    L.DomEvent.off(button, 'click', customButtonOptions.onClick);
+  }
+}
+
+// Crea una instancia de la clase y agrega el botón al mapa
+const customButton = new CustomButton(customButtonOptions);
+this.map.addControl(customButton);
   },
   initMap() {
   // Mostramos la animación de carga
@@ -163,7 +206,9 @@ navigator.geolocation.getCurrentPosition(position => {
 
     // add scale control to the map
     L.control.scale().addTo(toRaw(this.map));
+    
 
+    this.buttonElement();
     // Agregamos marcadores a las ubicaciones
     this.addMarkers();
 
@@ -536,16 +581,16 @@ border-radius: 10px;
   top: 0;
   left: 0;
   height: 100%;
-  background-color: #ffc107;
+  background-color: #e21f11;
   border-radius: 7px;
 }
 
 .stars-unfilled::before {
-  content: '\2605\2605\2605\2605\2605';
+  content: '\2661\2661\2661\2661\2661';
 }
 
 .stars-filled::before {
-  content: '\2605\2605\2605\2605\2605';
+  content: '\2661\2661\2661\2661\2661';
   color: #fff;
   text-shadow: 1px 1px #000;
 }

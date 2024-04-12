@@ -19329,7 +19329,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     }
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Laravel Vue ")];
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" The House of Crist ")];
     }),
     _: 1 /* STABLE */
   }), $options.user ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_router_link, {

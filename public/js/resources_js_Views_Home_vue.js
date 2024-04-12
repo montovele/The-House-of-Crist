@@ -54,7 +54,26 @@ __webpack_require__.r(__webpack_exports__);
         '2023-04-30': ['13:00', '14:00', '15:00'],
         '2023-05-01': ['11:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
         '2023-05-02': ['9:00', '11:00', '13:00', '15:00', '16:00', '18:00'],
-        '2023-05-03': ['10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00']
+        '2023-05-03': ['10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-13': ['10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-14': ['10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-15': ['10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-16': ['10:00', '11:00', '12:00', '13:00', '15:00', '16:00'],
+        '2023-05-17': ['10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-18': ['10:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-19': ['10:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-20': ['10:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-21': ['10:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-22': ['10:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-23': ['10:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-24': ['10:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-25': ['10:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-26': ['10:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-27': ['10:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-28': ['10:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-29': ['10:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-30': ['10:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+        '2023-05-31': ['10:00', '12:00', '13:00', '14:00', '15:00', '16:00']
       },
       menuVisible: false
     };
@@ -130,6 +149,40 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Controls.vue?vue&type=script&lang=js":
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Controls.vue?vue&type=script&lang=js ***!
+  \**************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "Controls",
+  components: {},
+  data: function data() {
+    return {
+      showControls: false,
+      title: ""
+    };
+  },
+  computed: {},
+  methods: {
+    openControl: function openControl() {
+      this.showControls = true;
+    },
+    closeControls: function closeControls() {
+      this.showControls = false;
+    }
+  },
+  created: function created() {}
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/MapExample5.vue?vue&type=script&lang=js":
 /*!*****************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/MapExample5.vue?vue&type=script&lang=js ***!
@@ -147,11 +200,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_slider_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-slider-component */ "./node_modules/vue-slider-component/dist/vue-slider-component.umd.min.js");
 /* harmony import */ var vue_slider_component__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_slider_component__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Modal1_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Modal1.vue */ "./resources/js/components/Modal1.vue");
-/* harmony import */ var vue_slider_component_theme_default_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue-slider-component/theme/default.css */ "./node_modules/vue-slider-component/theme/default.css");
+/* harmony import */ var _Controls_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Controls.vue */ "./resources/js/components/Controls.vue");
+/* harmony import */ var vue_slider_component_theme_default_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vue-slider-component/theme/default.css */ "./node_modules/vue-slider-component/theme/default.css");
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
+function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); Object.defineProperty(subClass, "prototype", { writable: false }); if (superClass) _setPrototypeOf(subClass, superClass); }
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } else if (call !== void 0) { throw new TypeError("Derived constructors may only return object or undefined"); } return _assertThisInitialized(self); }
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return exports; }; var exports = {}, Op = Object.prototype, hasOwn = Op.hasOwnProperty, defineProperty = Object.defineProperty || function (obj, key, desc) { obj[key] = desc.value; }, $Symbol = "function" == typeof Symbol ? Symbol : {}, iteratorSymbol = $Symbol.iterator || "@@iterator", asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator", toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag"; function define(obj, key, value) { return Object.defineProperty(obj, key, { value: value, enumerable: !0, configurable: !0, writable: !0 }), obj[key]; } try { define({}, ""); } catch (err) { define = function define(obj, key, value) { return obj[key] = value; }; } function wrap(innerFn, outerFn, self, tryLocsList) { var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator, generator = Object.create(protoGenerator.prototype), context = new Context(tryLocsList || []); return defineProperty(generator, "_invoke", { value: makeInvokeMethod(innerFn, self, context) }), generator; } function tryCatch(fn, obj, arg) { try { return { type: "normal", arg: fn.call(obj, arg) }; } catch (err) { return { type: "throw", arg: err }; } } exports.wrap = wrap; var ContinueSentinel = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var IteratorPrototype = {}; define(IteratorPrototype, iteratorSymbol, function () { return this; }); var getProto = Object.getPrototypeOf, NativeIteratorPrototype = getProto && getProto(getProto(values([]))); NativeIteratorPrototype && NativeIteratorPrototype !== Op && hasOwn.call(NativeIteratorPrototype, iteratorSymbol) && (IteratorPrototype = NativeIteratorPrototype); var Gp = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(IteratorPrototype); function defineIteratorMethods(prototype) { ["next", "throw", "return"].forEach(function (method) { define(prototype, method, function (arg) { return this._invoke(method, arg); }); }); } function AsyncIterator(generator, PromiseImpl) { function invoke(method, arg, resolve, reject) { var record = tryCatch(generator[method], generator, arg); if ("throw" !== record.type) { var result = record.arg, value = result.value; return value && "object" == _typeof(value) && hasOwn.call(value, "__await") ? PromiseImpl.resolve(value.__await).then(function (value) { invoke("next", value, resolve, reject); }, function (err) { invoke("throw", err, resolve, reject); }) : PromiseImpl.resolve(value).then(function (unwrapped) { result.value = unwrapped, resolve(result); }, function (error) { return invoke("throw", error, resolve, reject); }); } reject(record.arg); } var previousPromise; defineProperty(this, "_invoke", { value: function value(method, arg) { function callInvokeWithMethodAndArg() { return new PromiseImpl(function (resolve, reject) { invoke(method, arg, resolve, reject); }); } return previousPromise = previousPromise ? previousPromise.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(innerFn, self, context) { var state = "suspendedStart"; return function (method, arg) { if ("executing" === state) throw new Error("Generator is already running"); if ("completed" === state) { if ("throw" === method) throw arg; return doneResult(); } for (context.method = method, context.arg = arg;;) { var delegate = context.delegate; if (delegate) { var delegateResult = maybeInvokeDelegate(delegate, context); if (delegateResult) { if (delegateResult === ContinueSentinel) continue; return delegateResult; } } if ("next" === context.method) context.sent = context._sent = context.arg;else if ("throw" === context.method) { if ("suspendedStart" === state) throw state = "completed", context.arg; context.dispatchException(context.arg); } else "return" === context.method && context.abrupt("return", context.arg); state = "executing"; var record = tryCatch(innerFn, self, context); if ("normal" === record.type) { if (state = context.done ? "completed" : "suspendedYield", record.arg === ContinueSentinel) continue; return { value: record.arg, done: context.done }; } "throw" === record.type && (state = "completed", context.method = "throw", context.arg = record.arg); } }; } function maybeInvokeDelegate(delegate, context) { var methodName = context.method, method = delegate.iterator[methodName]; if (undefined === method) return context.delegate = null, "throw" === methodName && delegate.iterator["return"] && (context.method = "return", context.arg = undefined, maybeInvokeDelegate(delegate, context), "throw" === context.method) || "return" !== methodName && (context.method = "throw", context.arg = new TypeError("The iterator does not provide a '" + methodName + "' method")), ContinueSentinel; var record = tryCatch(method, delegate.iterator, context.arg); if ("throw" === record.type) return context.method = "throw", context.arg = record.arg, context.delegate = null, ContinueSentinel; var info = record.arg; return info ? info.done ? (context[delegate.resultName] = info.value, context.next = delegate.nextLoc, "return" !== context.method && (context.method = "next", context.arg = undefined), context.delegate = null, ContinueSentinel) : info : (context.method = "throw", context.arg = new TypeError("iterator result is not an object"), context.delegate = null, ContinueSentinel); } function pushTryEntry(locs) { var entry = { tryLoc: locs[0] }; 1 in locs && (entry.catchLoc = locs[1]), 2 in locs && (entry.finallyLoc = locs[2], entry.afterLoc = locs[3]), this.tryEntries.push(entry); } function resetTryEntry(entry) { var record = entry.completion || {}; record.type = "normal", delete record.arg, entry.completion = record; } function Context(tryLocsList) { this.tryEntries = [{ tryLoc: "root" }], tryLocsList.forEach(pushTryEntry, this), this.reset(!0); } function values(iterable) { if (iterable) { var iteratorMethod = iterable[iteratorSymbol]; if (iteratorMethod) return iteratorMethod.call(iterable); if ("function" == typeof iterable.next) return iterable; if (!isNaN(iterable.length)) { var i = -1, next = function next() { for (; ++i < iterable.length;) if (hasOwn.call(iterable, i)) return next.value = iterable[i], next.done = !1, next; return next.value = undefined, next.done = !0, next; }; return next.next = next; } } return { next: doneResult }; } function doneResult() { return { value: undefined, done: !0 }; } return GeneratorFunction.prototype = GeneratorFunctionPrototype, defineProperty(Gp, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), defineProperty(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, toStringTagSymbol, "GeneratorFunction"), exports.isGeneratorFunction = function (genFun) { var ctor = "function" == typeof genFun && genFun.constructor; return !!ctor && (ctor === GeneratorFunction || "GeneratorFunction" === (ctor.displayName || ctor.name)); }, exports.mark = function (genFun) { return Object.setPrototypeOf ? Object.setPrototypeOf(genFun, GeneratorFunctionPrototype) : (genFun.__proto__ = GeneratorFunctionPrototype, define(genFun, toStringTagSymbol, "GeneratorFunction")), genFun.prototype = Object.create(Gp), genFun; }, exports.awrap = function (arg) { return { __await: arg }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, asyncIteratorSymbol, function () { return this; }), exports.AsyncIterator = AsyncIterator, exports.async = function (innerFn, outerFn, self, tryLocsList, PromiseImpl) { void 0 === PromiseImpl && (PromiseImpl = Promise); var iter = new AsyncIterator(wrap(innerFn, outerFn, self, tryLocsList), PromiseImpl); return exports.isGeneratorFunction(outerFn) ? iter : iter.next().then(function (result) { return result.done ? result.value : iter.next(); }); }, defineIteratorMethods(Gp), define(Gp, toStringTagSymbol, "Generator"), define(Gp, iteratorSymbol, function () { return this; }), define(Gp, "toString", function () { return "[object Generator]"; }), exports.keys = function (val) { var object = Object(val), keys = []; for (var key in object) keys.push(key); return keys.reverse(), function next() { for (; keys.length;) { var key = keys.pop(); if (key in object) return next.value = key, next.done = !1, next; } return next.done = !0, next; }; }, exports.values = values, Context.prototype = { constructor: Context, reset: function reset(skipTempReset) { if (this.prev = 0, this.next = 0, this.sent = this._sent = undefined, this.done = !1, this.delegate = null, this.method = "next", this.arg = undefined, this.tryEntries.forEach(resetTryEntry), !skipTempReset) for (var name in this) "t" === name.charAt(0) && hasOwn.call(this, name) && !isNaN(+name.slice(1)) && (this[name] = undefined); }, stop: function stop() { this.done = !0; var rootRecord = this.tryEntries[0].completion; if ("throw" === rootRecord.type) throw rootRecord.arg; return this.rval; }, dispatchException: function dispatchException(exception) { if (this.done) throw exception; var context = this; function handle(loc, caught) { return record.type = "throw", record.arg = exception, context.next = loc, caught && (context.method = "next", context.arg = undefined), !!caught; } for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i], record = entry.completion; if ("root" === entry.tryLoc) return handle("end"); if (entry.tryLoc <= this.prev) { var hasCatch = hasOwn.call(entry, "catchLoc"), hasFinally = hasOwn.call(entry, "finallyLoc"); if (hasCatch && hasFinally) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } else if (hasCatch) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); } else { if (!hasFinally) throw new Error("try statement without catch or finally"); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } } } }, abrupt: function abrupt(type, arg) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc <= this.prev && hasOwn.call(entry, "finallyLoc") && this.prev < entry.finallyLoc) { var finallyEntry = entry; break; } } finallyEntry && ("break" === type || "continue" === type) && finallyEntry.tryLoc <= arg && arg <= finallyEntry.finallyLoc && (finallyEntry = null); var record = finallyEntry ? finallyEntry.completion : {}; return record.type = type, record.arg = arg, finallyEntry ? (this.method = "next", this.next = finallyEntry.finallyLoc, ContinueSentinel) : this.complete(record); }, complete: function complete(record, afterLoc) { if ("throw" === record.type) throw record.arg; return "break" === record.type || "continue" === record.type ? this.next = record.arg : "return" === record.type ? (this.rval = this.arg = record.arg, this.method = "return", this.next = "end") : "normal" === record.type && afterLoc && (this.next = afterLoc), ContinueSentinel; }, finish: function finish(finallyLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.finallyLoc === finallyLoc) return this.complete(entry.completion, entry.afterLoc), resetTryEntry(entry), ContinueSentinel; } }, "catch": function _catch(tryLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc === tryLoc) { var record = entry.completion; if ("throw" === record.type) { var thrown = record.arg; resetTryEntry(entry); } return thrown; } } throw new Error("illegal catch attempt"); }, delegateYield: function delegateYield(iterable, resultName, nextLoc) { return this.delegate = { iterator: values(iterable), resultName: resultName, nextLoc: nextLoc }, "next" === this.method && (this.arg = undefined), ContinueSentinel; } }, exports; }
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
 
 
 
@@ -161,7 +228,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   name: "Mapa",
   components: {
     VueSlider: (vue_slider_component__WEBPACK_IMPORTED_MODULE_2___default()),
-    MyModal: _Modal1_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
+    MyModal: _Modal1_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+    Controls: _Controls_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
   },
   data: function data() {
     return {
@@ -216,53 +284,85 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     fetchLocations: function fetchLocations() {
       //return this.$store.getters.locations
       this.locations = [{
-        name: "D Volada",
-        latlng: [32.4669608, -116.9380798],
-        serviceType: "Cafeteria",
+        name: "IAFCJ 14",
+        latlng: [32.467413, -116.9044563],
+        serviceType: "Iglesia apostolica",
         id: 1,
         img: "map.png",
         rating: 3,
         ratingCount: 90
       }, {
-        name: "Electric Coffee Roasters",
-        latlng: [32.5137529, -117.0303605],
-        serviceType: "Cafeteria",
+        name: "Iglesia Roca Eterna",
+        latlng: [32.4700436, -116.9334485],
+        serviceType: "Iglesia Cristiana",
         id: 2,
         img: "map.png",
         rating: 4,
         ratingCount: 230
       }, {
-        name: "DOUX SECRET",
-        latlng: [32.4860517, -116.9279526],
-        serviceType: "Cafeteria",
+        name: "Iglesia Cristiana Vida Abundante",
+        latlng: [32.4632682, -116.9428666],
+        serviceType: "Iglesia",
         id: 3,
         img: "map.png",
         rating: 5,
         ratingCount: 100
       }, {
-        name: "Comida china manfu",
-        latlng: [32.4669575, -116.9380799],
-        serviceType: "Restaurant",
+        name: "Iglesia Cristiana Pentecostes Mar de Cristal",
+        latlng: [32.4651654, -116.9042358],
+        serviceType: "Iglesia",
         id: 4,
         img: "map.png",
         rating: 2,
         ratingCount: 300
       }, {
-        name: "Café de la Flor Zona Río",
-        latlng: [32.5261803, -117.0214433],
-        serviceType: "Restaurant",
+        name: "Iglesia Casa De Dios Cristiana",
+        latlng: [32.4823847, -116.9524963],
+        serviceType: "Iglesia",
         id: 5,
         img: "map.png",
         rating: 2,
         ratingCount: 250
       }, {
-        name: "Hotel Eiffel En Ensenada",
-        latlng: [31.860818, -116.6108919],
-        serviceType: "Hotel",
+        name: "Iglesia Apostolica De La Fe En Cristo Jesus # 37",
+        latlng: [32.4676824, -116.9016447],
+        serviceType: "Iglesia Cristiana",
         id: 6,
         img: "map.png",
         rating: 4,
         ratingCount: 12000
+      }, {
+        name: "La Casona",
+        latlng: [32.4648508, -116.9609202],
+        serviceType: "Iglesia",
+        id: 6,
+        img: "map.png",
+        rating: 4,
+        ratingCount: 12500
+      }, {
+        name: "Templo Obreros de Cristo",
+        latlng: [32.4657338, -116.8971451],
+        serviceType: "Iglesia pentecostal",
+        id: 6,
+        img: "map.png",
+        rating: 4,
+        ratingCount: 14500
+      }, {
+        name: "Comunidad Cristiana Sublime Gracia",
+        latlng: [32.4859217, -116.8935133],
+        serviceType: "Iglesia Cristiana",
+        id: 6,
+        img: "map.png",
+        rating: 4,
+        ratingCount: 17500
+      }, {
+        name: "Iglesia Cristiana Bautista La Roca",
+        latlng: [32.4802211, -116.9273355],
+        serviceType: "Iglesia",
+        id: 6,
+        img: "map.png",
+        rating: 4,
+        ratingCount: 11700
       }];
     },
     //Obtiene las zonas donde se aplica el radio de busqueda
@@ -286,6 +386,9 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     openMyModal: function openMyModal(title, message, id) {
       this.$refs.myModal.openModal(title, message, id);
     },
+    openMyControls: function openMyControls() {
+      this.$refs.Controls.openControl();
+    },
     //Reset de parametros de busqueda en mapa
     resetFilters: function resetFilters() {
       this.selectedDistance = null;
@@ -298,36 +401,77 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
         _this2.map.setView([position.coords.latitude, position.coords.longitude], 13);
       });
     },
-    initMap: function initMap() {
+    buttonElement: function buttonElement() {
       var _this3 = this;
+      var customButtonOptions = {
+        position: 'topleft',
+        onClick: function onClick() {
+          console.log('¡Hiciste clic en el botón!');
+          _this3.openMyControls();
+        },
+        title: 'Mi botón personalizado'
+      };
+
+      // Define la clase que extiende de L.Control
+      var CustomButton = /*#__PURE__*/function (_L$Control) {
+        _inherits(CustomButton, _L$Control);
+        var _super = _createSuper(CustomButton);
+        function CustomButton() {
+          _classCallCheck(this, CustomButton);
+          return _super.apply(this, arguments);
+        }
+        _createClass(CustomButton, [{
+          key: "onAdd",
+          value: function onAdd(map) {
+            // Crea el elemento del botón y agrega un listener de clic
+            var button = leaflet__WEBPACK_IMPORTED_MODULE_0___default().DomUtil.create('button', 'leaflet-bar leaflet-control');
+            button.innerHTML = 'Mi botón';
+            button.title = customButtonOptions.title;
+            leaflet__WEBPACK_IMPORTED_MODULE_0___default().DomEvent.on(button, 'click', customButtonOptions.onClick);
+            return button;
+          }
+        }, {
+          key: "onRemove",
+          value: function onRemove(map) {
+            // Elimina cualquier listener del botón
+            leaflet__WEBPACK_IMPORTED_MODULE_0___default().DomEvent.off(button, 'click', customButtonOptions.onClick);
+          }
+        }]);
+        return CustomButton;
+      }((leaflet__WEBPACK_IMPORTED_MODULE_0___default().Control)); // Crea una instancia de la clase y agrega el botón al mapa
+      var customButton = new CustomButton(customButtonOptions);
+      this.map.addControl(customButton);
+    },
+    initMap: function initMap() {
+      var _this4 = this;
       // Mostramos la animación de carga
       this.loading = true;
       navigator.geolocation.getCurrentPosition(function (position) {
         // Creamos el mapa y lo centramos en la ubicación del usuario
-        _this3.map = leaflet__WEBPACK_IMPORTED_MODULE_0___default().map(_this3.$refs.map).setView([position.coords.latitude, position.coords.longitude], 13);
+        _this4.map = leaflet__WEBPACK_IMPORTED_MODULE_0___default().map(_this4.$refs.map).setView([position.coords.latitude, position.coords.longitude], 13);
 
         // Agregamos una capa de OpenStreetMap al mapa
         leaflet__WEBPACK_IMPORTED_MODULE_0___default().tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
           attribution: 'Map data © <a href="">Scaling Places tecnology  </a> contributors'
-        }).addTo((0,vue__WEBPACK_IMPORTED_MODULE_1__.toRaw)(_this3.map));
+        }).addTo((0,vue__WEBPACK_IMPORTED_MODULE_1__.toRaw)(_this4.map));
 
         // Agregamos un marcador en la ubicación del usuario
-        var userMarker = leaflet__WEBPACK_IMPORTED_MODULE_0___default().marker([position.coords.latitude, position.coords.longitude]).addTo((0,vue__WEBPACK_IMPORTED_MODULE_1__.toRaw)(_this3.map)).bindPopup('Tu estas aqui');
+        var userMarker = leaflet__WEBPACK_IMPORTED_MODULE_0___default().marker([position.coords.latitude, position.coords.longitude]).addTo((0,vue__WEBPACK_IMPORTED_MODULE_1__.toRaw)(_this4.map)).bindPopup('Tu estas aqui');
 
         // add scale control to the map
-        leaflet__WEBPACK_IMPORTED_MODULE_0___default().control.scale().addTo((0,vue__WEBPACK_IMPORTED_MODULE_1__.toRaw)(_this3.map));
-
+        leaflet__WEBPACK_IMPORTED_MODULE_0___default().control.scale().addTo((0,vue__WEBPACK_IMPORTED_MODULE_1__.toRaw)(_this4.map));
+        _this4.buttonElement();
         // Agregamos marcadores a las ubicaciones
-        _this3.addMarkers();
+        _this4.addMarkers();
 
         // Ocultamos la animación de carga
-        _this3.loading = false;
+        _this4.loading = false;
       }, function (error) {
         // Si no se puede obtener la ubicación, mostramos un mensaje de error
         console.error("Error getting location: ".concat(error.message));
 
         // Ocultamos la animación de carga
-        _this3.loading = false;
+        _this4.loading = false;
       });
     },
     //Obtiene las estrellas dependiendo del rating asignado
@@ -341,36 +485,36 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     },
     // Argega popup
     addMarkers: function addMarkers() {
-      var _this4 = this;
+      var _this5 = this;
       console.log(this.selectedLocation);
       this.markers = this.locations.map(function (location) {
         var marker = leaflet__WEBPACK_IMPORTED_MODULE_0___default().marker(location.latlng);
-        var starsHtml = _this4.getStarsHtml(location.rating);
-        marker.addTo((0,vue__WEBPACK_IMPORTED_MODULE_1__.toRaw)(_this4.map));
+        var starsHtml = _this5.getStarsHtml(location.rating);
+        marker.addTo((0,vue__WEBPACK_IMPORTED_MODULE_1__.toRaw)(_this5.map));
         marker.bindPopup("\n      <div  class=\"popup-menu\">\n        <div class=\"max-w-sm rounded overflow-hidden shadow-lg\">\n          <div class=\"map-container\"> \n            <div class=\"img-map-marker\" > <img src=\"/images/inside_marker_images/".concat(location.img, "\" alt=\"\"></div>\n          </div>\n          <div class=\"px-6 py-4\">\n            <div class=\"rating-container\">\n              <div class=\"font-bold tipograpi mb-2\">  <h3>").concat(location.name, "</h3></div>\n              <div class=\"rating-value\">").concat(location.rating, "</div>\n              <div class=\"rating-stars\">").concat(starsHtml, "</div>\n              <div class=\"rating-count\">(").concat(location.ratingCount, ")</div>\n            </div>\n            <div> <h2 tipograpi>").concat(location.serviceType, "</h2></div>\n          </div>\n          <div class=\"container-get-service\">\n            <button class=\"get-service-button BLINK\"> <h2 tipograpi>Reservar</h2></button> \n            <span class=\"button-icon\"><i class=\"fas fa-arrow-right\"></i></span>\n          </div>\n        </div>\n      </div>\n    "));
         // Agregar evento al botón del popup
         var addButtonClickEvent = function addButtonClickEvent() {
           var button = document.querySelector(".get-service-button");
           if (button !== null) {
             button.addEventListener('click', function () {
-              if (_this4.selectedLocation) {
+              if (_this5.selectedLocation) {
                 console.log('Button clicked!');
-                _this4.openMyModal(location.name, location.serviceType, location.id);
+                _this5.openMyModal(location.name, location.serviceType, location.id);
               }
             });
           }
         };
         marker.on("click", function () {
           // Abre el popup del marcador cuando se hace clic en el marcador
-          if (_this4.marker) {
-            _this4.marker.openPopup();
+          if (_this5.marker) {
+            _this5.marker.openPopup();
           }
-          if (!_this4.selectedLocation) {
+          if (!_this5.selectedLocation) {
             console.log(location.img);
-            _this4.zonas.map(function (zona) {
+            _this5.zonas.map(function (zona) {
               if (zona.name === "Mi Ubicacion") {
-                _this4.selectedLocation = zona;
-                _this4.filterLocations();
+                _this5.selectedLocation = zona;
+                _this5.filterLocations();
               }
             });
           }
@@ -383,12 +527,12 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
           if (marker) {
             marker.openPopup();
           }
-          if (!_this4.selectedLocation) {
+          if (!_this5.selectedLocation) {
             console.log(location.img);
-            _this4.zonas.map(function (zona) {
+            _this5.zonas.map(function (zona) {
               if (zona.name === "Mi Ubicacion") {
-                _this4.selectedLocation = zona;
-                _this4.filterLocations();
+                _this5.selectedLocation = zona;
+                _this5.filterLocations();
               }
             });
           }
@@ -399,31 +543,31 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     },
     //Filtra la ubicacion dependiendo de las cordenanadas de las localidades
     filterLocations: function filterLocations() {
-      var _this5 = this;
+      var _this6 = this;
       return _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2() {
         var selectedLocationLatLng, selectedDistance, selectedServiceType, filterMarkers;
         return _regeneratorRuntime().wrap(function _callee2$(_context2) {
           while (1) switch (_context2.prev = _context2.next) {
             case 0:
-              selectedLocationLatLng = _this5.selectedLocation.latlng;
-              selectedDistance = _this5.selectedDistance;
-              selectedServiceType = _this5.selectedServiceType;
+              selectedLocationLatLng = _this6.selectedLocation.latlng;
+              selectedDistance = _this6.selectedDistance;
+              selectedServiceType = _this6.selectedServiceType;
               filterMarkers = function filterMarkers(location, index) {
                 var distance = leaflet__WEBPACK_IMPORTED_MODULE_0___default().latLng(selectedLocationLatLng).distanceTo(leaflet__WEBPACK_IMPORTED_MODULE_0___default().latLng(location.latlng));
                 var withinDistance = !selectedDistance || distance <= selectedDistance * 1000;
                 var correctServiceType = !selectedServiceType || location.serviceType === selectedServiceType;
                 var shouldShow = withinDistance && correctServiceType;
                 if (shouldShow) {
-                  _this5.markers[index].addTo(_this5.map);
+                  _this6.markers[index].addTo(_this6.map);
                 } else {
-                  _this5.markers[index].removeFrom(_this5.map);
+                  _this6.markers[index].removeFrom(_this6.map);
                 }
                 return shouldShow;
               };
-              _this5.locations.filter(filterMarkers);
+              _this6.locations.filter(filterMarkers);
 
               // Centramos el mapa en la ubicación seleccionada
-              _this5.map.setView(selectedLocationLatLng);
+              _this6.map.setView(selectedLocationLatLng);
             case 6:
             case "end":
               return _context2.stop();
@@ -435,10 +579,10 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
   watch: {
     //Escucha el evento y asigna los valores por defecto sin aplicar filtro
     selectedLocation: function selectedLocation() {
-      var _this6 = this;
+      var _this7 = this;
       if (!this.selectedLocation) {
         this.markers.forEach(function (marker) {
-          return marker.addTo(_this6.map);
+          return marker.addTo(_this7.map);
         });
         return;
       }
@@ -773,6 +917,48 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Controls.vue?vue&type=template&id=8b03ddbe&scoped=true":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Controls.vue?vue&type=template&id=8b03ddbe&scoped=true ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _withScopeId = function _withScopeId(n) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-8b03ddbe"), n = n(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)(), n;
+};
+var _hoisted_1 = {
+  key: 0,
+  "class": "controls-wrapper"
+};
+var _hoisted_2 = {
+  "class": "controls-content"
+};
+var _hoisted_3 = {
+  "class": "div-close-controls"
+};
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div data-v-8b03ddbe><h2 class=\"title-controls\" data-v-8b03ddbe>Controls</h2></div><div class=\"container\" data-v-8b03ddbe><div class=\"column\" data-v-8b03ddbe><div class=\"menu-controls-container\" data-v-8b03ddbe><div class=\"menu-controls\" data-v-8b03ddbe> 1 </div></div></div></div>", 2);
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return $data.showControls ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "controls-background",
+    onClick: _cache[0] || (_cache[0] = function () {
+      return $options.closeControls && $options.closeControls.apply($options, arguments);
+    })
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    onClick: _cache[1] || (_cache[1] = function () {
+      return $options.closeControls && $options.closeControls.apply($options, arguments);
+    })
+  }, "Cerrar")]), _hoisted_4])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true);
+}
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/MapExample5.vue?vue&type=template&id=1d80e8ec":
 /*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/MapExample5.vue?vue&type=template&id=1d80e8ec ***!
@@ -849,34 +1035,29 @@ var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
   "for": "service-type-select",
   "class": "block font-medium text-gray-700 tipograpi border"
 }, "Filtro por tipo de servicio:", -1 /* HOISTED */);
-var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("option", {
-  value: ""
-}, "Todo", -1 /* HOISTED */);
-var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("option", {
-  value: "Restaurant"
-}, "Restaurant", -1 /* HOISTED */);
-var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("option", {
-  value: "Cafeteria"
-}, "Cafeteria", -1 /* HOISTED */);
-var _hoisted_25 = [_hoisted_22, _hoisted_23, _hoisted_24];
-var _hoisted_26 = {
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"\">Todo</option><option value=\"Iglesia Cristiana\">Iglesia Cristiana</option><option value=\"Iglesia pentecostal\">Iglesia pentecostal</option><option value=\"Iglesia apostolica\">Iglesia apostolica</option><option value=\"Iglesia\">Iglesia</option>", 5);
+var _hoisted_27 = [_hoisted_22];
+var _hoisted_28 = {
   key: 1
 };
-var _hoisted_27 = {
+var _hoisted_29 = {
   "class": "contols-item"
 };
-var _hoisted_28 = {
+var _hoisted_30 = {
   "class": "mt-4 border"
 };
-var _hoisted_29 = {
+var _hoisted_31 = {
   "for": "distance-slider",
   "class": "block font-medium text-gray-700 tipograpi font-bold"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_my_modal = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("my-modal");
+  var _component_controls = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("controls");
   var _component_vue_slider = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("vue-slider");
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Mapa "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, null, 512 /* NEED_PATCH */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Loader "), this.loading ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_3, _hoisted_5)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Modal "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_my_modal, {
     ref: "myModal"
+  }, null, 512 /* NEED_PATCH */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_controls, {
+    ref: "Controls"
   }, null, 512 /* NEED_PATCH */)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     "class": "reset-button",
     onClick: _cache[0] || (_cache[0] = function () {
@@ -903,7 +1084,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return $data.selectedServiceType = $event;
     }),
     "class": "w-full mt-1 form-select rounded-md shadow-sm tipograpi font-bold blink"
-  }, _hoisted_25, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.selectedServiceType]])])])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.selectedServiceType ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_26, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_28, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", _hoisted_29, "Filtrar por distancia (km): " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.selectedDistance), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_vue_slider, {
+  }, _hoisted_27, 512 /* NEED_PATCH */), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.selectedServiceType]])])])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.selectedServiceType ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_28, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", _hoisted_31, "Filtrar por distancia (km): " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($data.selectedDistance), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_vue_slider, {
     modelValue: $data.selectedDistance,
     "onUpdate:modelValue": _cache[4] || (_cache[4] = function ($event) {
       return $data.selectedDistance = $event;
@@ -1135,6 +1316,30 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n.calendar {\n  display: flex;\n  fle
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Controls.vue?vue&type=style&index=0&id=8b03ddbe&scoped=true&lang=css":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Controls.vue?vue&type=style&index=0&id=8b03ddbe&scoped=true&lang=css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n  /* Estilos de diseño del menú */\n.menu-controls[data-v-8b03ddbe] {\n  background-color: aquamarine;\n  width: auto;\n  height: auto;\n}\n.menu-controls-container[data-v-8b03ddbe]{\n  display: flex;\n  position: fixed;\n}\n.controls-wrapper[data-v-8b03ddbe] {\n  background-color: #11ffff;\n  display: flex;\n  position: fixed;\n  top: 180px;\n  left: 460px;\n  justify-content: center;\n  align-items: center;\n  z-index: 1000;\n}\n.controls-background[data-v-8b03ddbe] {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 40%;\n  height: 40%;\n  /* background-color: rgba(0, 0, 0, 0.5);\n  z-index: -1; */\n}\n.controls-content[data-v-8b03ddbe] {\n  /* border-radius: 8px;\n  max-width: 90%;\n  max-height: 90%;\n  overflow-y: auto; */\n  padding: 0px;\n  text-align: center;\n  width: auto;\n  position: relative;\n  z-index: 1;\n  width: 590px;\n  height: 90px;\n}\nh2[data-v-8b03ddbe] {\n  color: #222;\n  font-size: 24px;\n  font-weight: 700;\n  margin-bottom: 16px;\n}\np[data-v-8b03ddbe] {\n  color: #666;\n  font-size: 16px;\n  line-height: 24px;\n  margin-bottom: 32px;\n}\nbutton[data-v-8b03ddbe] {\n  background-color: #222;\n  border: none;\n  border-radius: 8px;\n  color: #fff;\n  cursor: pointer;\n  font-size: 16px;\n  font-weight: 700;\n  padding: 12px 24px;\n  transition: background-color 0.2s ease-in-out;\n}\nbutton[data-v-8b03ddbe]:hover {\n  background-color: #444;\n}\n.div-close-controls[data-v-8b03ddbe] {\n  display: flex;\n  justify-content: flex-end;\n}\n.div-close-controls button[data-v-8b03ddbe] {\n  align-self: flex-end;\n}\n.title-controls[data-v-8b03ddbe]{\ndisplay: flex;\njustify-content:space-between;\n}\n.container[data-v-8b03ddbe] {\n  display: flex;\n  flex-direction: row;\n}\n.column-1[data-v-8b03ddbe] {\n  flex: 1;\n}\n.column[data-v-8b03ddbe] {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex-basis: 150px; /* Ancho fijo de la segunda columna */\n}\n.menu h2[data-v-8b03ddbe] {\n  margin-top: 0;\n}\n.products h3[data-v-8b03ddbe] {\n  margin-top: 0;\n}\nul[data-v-8b03ddbe] {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n}\nli[data-v-8b03ddbe] {\n  background-color: #ffffff;\n  border-radius: 5px;\n  padding: 10px;\n  margin-bottom: 10px;\n}\n.dashboard[data-v-8b03ddbe] {\n  background-color: #ffffff;\n  border-radius: 10px;\n}\n.dashboard h2[data-v-8b03ddbe] {\n  margin-top: 0;\n}\n.date-time[data-v-8b03ddbe] {\n  display: flex;\n  justify-content: space-between;\n  flex-direction: row;\n  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n}\n.products h3[data-v-8b03ddbe] {\n  margin-top: 0;\n}\nul[data-v-8b03ddbe] {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n}\nli[data-v-8b03ddbe] {\n  background-color: #e1e1e1;\n  border-radius: 5px;\n  padding: 10px;\n  margin-bottom: 10px;\n}\n@media (max-width: 768px) {\n.dashboard[data-v-8b03ddbe] {\n    display: flex;\n    flex-direction: column;\n}\n.header[data-v-8b03ddbe] {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 10px;\n}\n}\n\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/MapExample5.vue?vue&type=style&index=0&id=1d80e8ec&lang=css":
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/MapExample5.vue?vue&type=style&index=0&id=1d80e8ec&lang=css ***!
@@ -1152,7 +1357,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n/* Estilos para el mapa */\n.map {\nheight: 500px;\n}\n\n/* Estilos para el menú de opciones del popup */\n.popup-menu {\ndisplay: flex;\nflex-direction: column;\njustify-content: center;\nalign-items: center;\n}\n.popup-menu h3 {\nmargin: 0;\nfont-size: 1.5rem;\n}\n.popup-menu ul {\nlist-style: none;\nmargin: 0;\npadding: 0;\n}\n.popup-menu li {\nmargin: 10px 0;\n}\n.popup-menu li a {\ncolor: #333;\ntext-decoration: none;\ntransition: color 0.2s ease-in-out;\n}\n.popup-menu li a:hover {\ncolor: #007bff;\n}\n\n/* Estilos para los filtros */\n.filters {\ndisplay: flex;\nflex-direction: column;\nalign-items: flex-start;\nmargin-bottom: 20px;\n}\n.filters label {\nmargin-bottom: 5px;\n}\n.filters select {\nmargin-bottom: 10px;\npadding: 5px;\nborder-radius: 5px;\nborder: 1px solid #ccc;\nfont-size: 1rem;\nwidth: 100%;\n}\n\n/* Estilos para los botones */\n.button {\npadding: 10px 20px;\nborder-radius: 5px;\nborder: none;\nbackground-color: #007bff;\ncolor: #fff;\nfont-size: 1rem;\ncursor: pointer;\ntransition: background-color 0.2s ease-in-out;\n}\n.button:hover {\nbackground-color: #0062cc;\n}\n\n/* Estilos para los nuevos select de los filtros */\n.filter-section {\ndisplay: flex;\nflex-direction: column;\nmargin-bottom: 20px;\n}\n.filter-section label {\nmargin-bottom: 5px;\n}\n.filter-section select {\nmargin-bottom: 10px;\npadding: 5px;\nborder-radius: 5px;\nborder: 1px solid #ccc;\nfont-size: 1rem;\nwidth: 100%;\n}\n.filter-section select option {\ncolor: #333;\n}\n.reset-button {\ncolor: #000000;\nborder: 1px solid #ff0000bb;\npadding: 10px 20px;\nborder-radius: 20px;\nfont-size: 1rem;\ntransition: all 0.3s ease;\npadding: 4px;\n}\n.center-button {\ncolor: #000000;\nborder: 1px solid #1288e3ba;\npadding: 10px 20px;\nborder-radius: 20px;\nfont-size: 1rem;\ntransition: all 0.3s ease;\npadding: 4px;\n}\n.buttons-container{\n  display: flex;\n  flex-direction: column;\n  max-width: -moz-max-content;\n  max-width: max-content;\n  background-color: #ffffff;\n  padding: 5px;\n  border: 1px solid #ccc;\n  border-radius: 5px;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);\n  gap: 10px;\n}\n.buttons-container img{\nwidth: 100px;\n}\n.reset-button img{\n  width: 50px;\n}\n.center-button img{\n  width: 50px;\n}\n.center-button:hover {\nbackground-color:  #1982cc;\ncolor: #ffffff;\ncursor: pointer;\n}\n.reset-button:hover {\nbackground-color: #ff6b6b;\ncolor: #ffffff;\ncursor: pointer;\n}\n.border{\ncolor: #000000;\nborder: .8px solid rgba(rgb(24, 22, 22), rgb(27, 29, 27), rgb(60, 136, 115), .3);\npadding: 10px 20px;\nborder-radius: 10px;\n}\n.img-map-marker {\n  display: flex;\n  height: 100px;\n  width: 348px;\n  overflow: hidden; /* para ocultar lo que sobrepasa el contenedor */\n  position:fixed; /* necesario para que la imagen se posicione dentro del contenedor */\n  box-shadow: 0px 10px 20px rgba(53, 53, 53, 0.2);\n  border-radius: 5;\n}\n.img-map-marker img{\n  position: absolute; /* para que la imagen se posicione dentro del contenedor */\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: auto; /* para que la imagen conserve su relación de aspecto */\n  z-index: 1; /* para que la imagen se muestre detrás del contenedor */\n}\n.map-container{\n  display: flex;\n  align-items: center;\n}\n.tipograpi{\n  font-family: Roboto;\n}\n@keyframes blink {\n0% {\n    opacity: 1;\n}\n50% {\n    opacity: 0;\n}\n100% {\n    opacity: 1;\n}\n}\n.blink {\n  animation: blink 7s infinite;\n}\n.stars-container {\n  display: inline-block;\n  position: relative;\n  font-size: 0.75rem;\n  color: #ddd;\n  text-shadow: 1px 1px #000;\n}\n.stars-filled {\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  background-color: #ffc107;\n  border-radius: 7px;\n}\n.stars-unfilled::before {\n  content: '\\2605\\2605\\2605\\2605\\2605';\n}\n.stars-filled::before {\n  content: '\\2605\\2605\\2605\\2605\\2605';\n  color: #fff;\n  text-shadow: 1px 1px #000;\n}\n.rating-zone{\n  width:100px;\n}\n.rating-container {\n  display: flex;\n  align-items: center;\n  width: 300px; /* ajustar según sea necesario */\n  padding-top:54px;\n}\n.rating-value {\n  margin-right: 4px;\n  margin-left: 4px;\n}\n.rating-stars {\n  margin-right: 5px;\n}\n.get-service-button{\njustify-content: right;\nfloat: right;\nbackground-color: #e21c1c;\ncolor: #ffffff;\nborder: 1px solid #e21c1c;\npadding-bottom: 2;\npadding-right: 3px;\nborder-radius: 3px;\nfont-size: 17px;\ntransition: all 0.3s ease;\n}\n.container-get-service{\n  padding-left: 15rem;\n}\n.get-service-button:hover {\nbackground-color:  #b10505;\ncolor: #ffffff;\ncursor: pointer;\n}\n.rating-count {\n  margin-left: 5px;\n}\n.fa-arrow-right {\n  font-size: 1.2rem;\n}\n.menu-controls-container {\n  display: flex;\n  align-items: center;\n}\n.menu-controls {\n  /* Estilos de diseño del menú */\n  background-color: #ffffff;\n  display: flex;\n  flex-direction: column;\n  max-height: 470px;\n  max-width: -moz-max-content;\n  max-width: max-content;\n  overflow-y: auto;\n  border: 1px solid #ccc;\n  border-radius: 5px;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);\n  gap: 10px;\n}\n.controls-container {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n  flex-direction: column;\n  overflow-y: auto;\n  max-height: 180px;\n  width: 828px;\n}\n.controls-item{\n  width: 150px;\n  margin: 20px;\n  padding: 10px;\n  background-color: white;\n  border-radius: 5px;\n  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);\n  transition: all 0.3s ease;\n}\n.controls-item-ubication{\n  width: 350px;\n  margin: 20px;\n  padding: 10px;\n  background-color: white;\n  border-radius: 5px;\n  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);\n  transition: all 0.3s ease;\n}\n#loading-container {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.7);\n  z-index: 9999;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.loader {\n  border: 16px solid #f3f3f3;\n  border-top: 16px solid #3498db;\n  border-radius: 50%;\n  width: 120px;\n  height: 120px;\n  animation: spin 2s linear infinite;\n}\n.loader span{\n  color: #ffffff;\n}\n@keyframes spin {\n0% {\n    transform: rotate(0deg);\n}\n100% {\n    transform: rotate(360deg);\n}\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n/* Estilos para el mapa */\n.map {\nheight: 500px;\n}\n\n/* Estilos para el menú de opciones del popup */\n.popup-menu {\ndisplay: flex;\nflex-direction: column;\njustify-content: center;\nalign-items: center;\n}\n.popup-menu h3 {\nmargin: 0;\nfont-size: 1.5rem;\n}\n.popup-menu ul {\nlist-style: none;\nmargin: 0;\npadding: 0;\n}\n.popup-menu li {\nmargin: 10px 0;\n}\n.popup-menu li a {\ncolor: #333;\ntext-decoration: none;\ntransition: color 0.2s ease-in-out;\n}\n.popup-menu li a:hover {\ncolor: #007bff;\n}\n\n/* Estilos para los filtros */\n.filters {\ndisplay: flex;\nflex-direction: column;\nalign-items: flex-start;\nmargin-bottom: 20px;\n}\n.filters label {\nmargin-bottom: 5px;\n}\n.filters select {\nmargin-bottom: 10px;\npadding: 5px;\nborder-radius: 5px;\nborder: 1px solid #ccc;\nfont-size: 1rem;\nwidth: 100%;\n}\n\n/* Estilos para los botones */\n.button {\npadding: 10px 20px;\nborder-radius: 5px;\nborder: none;\nbackground-color: #007bff;\ncolor: #fff;\nfont-size: 1rem;\ncursor: pointer;\ntransition: background-color 0.2s ease-in-out;\n}\n.button:hover {\nbackground-color: #0062cc;\n}\n\n/* Estilos para los nuevos select de los filtros */\n.filter-section {\ndisplay: flex;\nflex-direction: column;\nmargin-bottom: 20px;\n}\n.filter-section label {\nmargin-bottom: 5px;\n}\n.filter-section select {\nmargin-bottom: 10px;\npadding: 5px;\nborder-radius: 5px;\nborder: 1px solid #ccc;\nfont-size: 1rem;\nwidth: 100%;\n}\n.filter-section select option {\ncolor: #333;\n}\n.reset-button {\ncolor: #000000;\nborder: 1px solid #ff0000bb;\npadding: 10px 20px;\nborder-radius: 20px;\nfont-size: 1rem;\ntransition: all 0.3s ease;\npadding: 4px;\n}\n.center-button {\ncolor: #000000;\nborder: 1px solid #1288e3ba;\npadding: 10px 20px;\nborder-radius: 20px;\nfont-size: 1rem;\ntransition: all 0.3s ease;\npadding: 4px;\n}\n.buttons-container{\n  display: flex;\n  flex-direction: column;\n  max-width: -moz-max-content;\n  max-width: max-content;\n  background-color: #ffffff;\n  padding: 5px;\n  border: 1px solid #ccc;\n  border-radius: 5px;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);\n  gap: 10px;\n}\n.buttons-container img{\nwidth: 100px;\n}\n.reset-button img{\n  width: 50px;\n}\n.center-button img{\n  width: 50px;\n}\n.center-button:hover {\nbackground-color:  #1982cc;\ncolor: #ffffff;\ncursor: pointer;\n}\n.reset-button:hover {\nbackground-color: #ff6b6b;\ncolor: #ffffff;\ncursor: pointer;\n}\n.border{\ncolor: #000000;\nborder: .8px solid rgba(rgb(24, 22, 22), rgb(27, 29, 27), rgb(60, 136, 115), .3);\npadding: 10px 20px;\nborder-radius: 10px;\n}\n.img-map-marker {\n  display: flex;\n  height: 100px;\n  width: 348px;\n  overflow: hidden; /* para ocultar lo que sobrepasa el contenedor */\n  position:fixed; /* necesario para que la imagen se posicione dentro del contenedor */\n  box-shadow: 0px 10px 20px rgba(53, 53, 53, 0.2);\n  border-radius: 5;\n}\n.img-map-marker img{\n  position: absolute; /* para que la imagen se posicione dentro del contenedor */\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: auto; /* para que la imagen conserve su relación de aspecto */\n  z-index: 1; /* para que la imagen se muestre detrás del contenedor */\n}\n.map-container{\n  display: flex;\n  align-items: center;\n}\n.tipograpi{\n  font-family: Roboto;\n}\n@keyframes blink {\n0% {\n    opacity: 1;\n}\n50% {\n    opacity: 0;\n}\n100% {\n    opacity: 1;\n}\n}\n.blink {\n  animation: blink 7s infinite;\n}\n.stars-container {\n  display: inline-block;\n  position: relative;\n  font-size: 0.75rem;\n  color: #ddd;\n  text-shadow: 1px 1px #000;\n}\n.stars-filled {\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  background-color: #e21f11;\n  border-radius: 7px;\n}\n.stars-unfilled::before {\n  content: '\\2661\\2661\\2661\\2661\\2661';\n}\n.stars-filled::before {\n  content: '\\2661\\2661\\2661\\2661\\2661';\n  color: #fff;\n  text-shadow: 1px 1px #000;\n}\n.rating-zone{\n  width:100px;\n}\n.rating-container {\n  display: flex;\n  align-items: center;\n  width: 300px; /* ajustar según sea necesario */\n  padding-top:54px;\n}\n.rating-value {\n  margin-right: 4px;\n  margin-left: 4px;\n}\n.rating-stars {\n  margin-right: 5px;\n}\n.get-service-button{\njustify-content: right;\nfloat: right;\nbackground-color: #e21c1c;\ncolor: #ffffff;\nborder: 1px solid #e21c1c;\npadding-bottom: 2;\npadding-right: 3px;\nborder-radius: 3px;\nfont-size: 17px;\ntransition: all 0.3s ease;\n}\n.container-get-service{\n  padding-left: 15rem;\n}\n.get-service-button:hover {\nbackground-color:  #b10505;\ncolor: #ffffff;\ncursor: pointer;\n}\n.rating-count {\n  margin-left: 5px;\n}\n.fa-arrow-right {\n  font-size: 1.2rem;\n}\n.menu-controls-container {\n  display: flex;\n  align-items: center;\n}\n.menu-controls {\n  /* Estilos de diseño del menú */\n  background-color: #ffffff;\n  display: flex;\n  flex-direction: column;\n  max-height: 470px;\n  max-width: -moz-max-content;\n  max-width: max-content;\n  overflow-y: auto;\n  border: 1px solid #ccc;\n  border-radius: 5px;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);\n  gap: 10px;\n}\n.controls-container {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n  flex-direction: column;\n  overflow-y: auto;\n  max-height: 180px;\n  width: 828px;\n}\n.controls-item{\n  width: 150px;\n  margin: 20px;\n  padding: 10px;\n  background-color: white;\n  border-radius: 5px;\n  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);\n  transition: all 0.3s ease;\n}\n.controls-item-ubication{\n  width: 350px;\n  margin: 20px;\n  padding: 10px;\n  background-color: white;\n  border-radius: 5px;\n  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);\n  transition: all 0.3s ease;\n}\n#loading-container {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.7);\n  z-index: 9999;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.loader {\n  border: 16px solid #f3f3f3;\n  border-top: 16px solid #3498db;\n  border-radius: 50%;\n  width: 120px;\n  height: 120px;\n  animation: spin 2s linear infinite;\n}\n.loader span{\n  color: #ffffff;\n}\n@keyframes spin {\n0% {\n    transform: rotate(0deg);\n}\n100% {\n    transform: rotate(360deg);\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -15711,6 +15916,36 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Controls.vue?vue&type=style&index=0&id=8b03ddbe&scoped=true&lang=css":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Controls.vue?vue&type=style&index=0&id=8b03ddbe&scoped=true&lang=css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Controls_vue_vue_type_style_index_0_id_8b03ddbe_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Controls.vue?vue&type=style&index=0&id=8b03ddbe&scoped=true&lang=css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Controls.vue?vue&type=style&index=0&id=8b03ddbe&scoped=true&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Controls_vue_vue_type_style_index_0_id_8b03ddbe_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Controls_vue_vue_type_style_index_0_id_8b03ddbe_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/MapExample5.vue?vue&type=style&index=0&id=1d80e8ec&lang=css":
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/MapExample5.vue?vue&type=style&index=0&id=1d80e8ec&lang=css ***!
@@ -15830,6 +16065,37 @@ if (false) {}
 
 /***/ }),
 
+/***/ "./resources/js/components/Controls.vue":
+/*!**********************************************!*\
+  !*** ./resources/js/components/Controls.vue ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Controls_vue_vue_type_template_id_8b03ddbe_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Controls.vue?vue&type=template&id=8b03ddbe&scoped=true */ "./resources/js/components/Controls.vue?vue&type=template&id=8b03ddbe&scoped=true");
+/* harmony import */ var _Controls_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Controls.vue?vue&type=script&lang=js */ "./resources/js/components/Controls.vue?vue&type=script&lang=js");
+/* harmony import */ var _Controls_vue_vue_type_style_index_0_id_8b03ddbe_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Controls.vue?vue&type=style&index=0&id=8b03ddbe&scoped=true&lang=css */ "./resources/js/components/Controls.vue?vue&type=style&index=0&id=8b03ddbe&scoped=true&lang=css");
+/* harmony import */ var _Users_pcloby_Public_The_House_of_Crist_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+
+
+const __exports__ = /*#__PURE__*/(0,_Users_pcloby_Public_The_House_of_Crist_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Controls_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Controls_vue_vue_type_template_id_8b03ddbe_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-8b03ddbe"],['__file',"resources/js/components/Controls.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
 /***/ "./resources/js/components/MapExample5.vue":
 /*!*************************************************!*\
   !*** ./resources/js/components/MapExample5.vue ***!
@@ -15924,6 +16190,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/Controls.vue?vue&type=script&lang=js":
+/*!**********************************************************************!*\
+  !*** ./resources/js/components/Controls.vue?vue&type=script&lang=js ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Controls_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Controls_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Controls.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Controls.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/js/components/MapExample5.vue?vue&type=script&lang=js":
 /*!*************************************************************************!*\
   !*** ./resources/js/components/MapExample5.vue?vue&type=script&lang=js ***!
@@ -15988,6 +16270,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/Controls.vue?vue&type=template&id=8b03ddbe&scoped=true":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/Controls.vue?vue&type=template&id=8b03ddbe&scoped=true ***!
+  \****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Controls_vue_vue_type_template_id_8b03ddbe_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Controls_vue_vue_type_template_id_8b03ddbe_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Controls.vue?vue&type=template&id=8b03ddbe&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Controls.vue?vue&type=template&id=8b03ddbe&scoped=true");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/MapExample5.vue?vue&type=template&id=1d80e8ec":
 /*!*******************************************************************************!*\
   !*** ./resources/js/components/MapExample5.vue?vue&type=template&id=1d80e8ec ***!
@@ -16029,6 +16327,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Calendar_vue_vue_type_style_index_0_id_052a41a9_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Calendar.vue?vue&type=style&index=0&id=052a41a9&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Calendar.vue?vue&type=style&index=0&id=052a41a9&lang=css");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Controls.vue?vue&type=style&index=0&id=8b03ddbe&scoped=true&lang=css":
+/*!******************************************************************************************************!*\
+  !*** ./resources/js/components/Controls.vue?vue&type=style&index=0&id=8b03ddbe&scoped=true&lang=css ***!
+  \******************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Controls_vue_vue_type_style_index_0_id_8b03ddbe_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Controls.vue?vue&type=style&index=0&id=8b03ddbe&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Controls.vue?vue&type=style&index=0&id=8b03ddbe&scoped=true&lang=css");
 
 
 /***/ }),
